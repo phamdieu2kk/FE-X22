@@ -1,0 +1,55 @@
+
+
+
+  .section-about {
+    margin-top: 10px;
+  }
+  
+  .title-slider img{
+    padding: auto;
+    margin: 40px auto;
+    width: 100%;
+    height: 50vh;
+   
+   
+  }
+ 
+  .thumb-content-left {
+    display: block;
+    margin:  auto;
+   
+
+  }
+
+
+.title-slider {
+    text-align: justify;
+    display: block;
+   
+  }
+  
+  .about-link {
+    text-align: center;
+  
+    
+   }
+ 
+ .about-link a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #eea70e;
+   
+  }
+  
+ .about-link a {
+    padding: 10px 15px;
+    border: 1px solid #000;
+    color: #000;
+    font-weight: 700;
+    
+  }
+
+ .about-button {
+  
+margin: auto;
+ }

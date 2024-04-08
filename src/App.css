@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  color: #000000;
+  background: #ffffff url("https://trangnguyentiengviet.vn/assets/images/bg-pattern2.png")  ;
+  font-size: 14px;
+  font-family: 'Quicksand', sans-serif;
+  border-radius: 10px;
+  
+}
+
+/* CSS register , login */
+.auth-form {
+  width: 40%;
+  min-width: 400px;
+  background: #f4eded url("https://trangnguyen.edu.vn/assets/images/bg-login-box.svg") no-repeat top left ;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px lightblue ;
+  border: 5px solid #f7d1d1;
+  padding: 30px ;
+  margin: 40px auto;
+  
+}
+
+
+
+.auth-button{
+	width:100%;
+	margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+
+.login-form-forgot {
+  float: right;
+  margin-top: 10px;
+}
+
+
+ /* CSS tille */
+ 
+.title-home {
+  margin: 25px;
+}
+
+.title-home span {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* CSS Topic */
+
+.topic-detail h3 {
+  text-align: center;
+}
+.topic-detail h3 a {
+  text-decoration: none;
+  font-family: 'Playball';
+  color: rgb(250, 0, 63);
+}
+
+
+/* CSS instruction*/
+.section-instruction {
+  border-radius: 5px;
+}
+
+.title-instruction {
+  font-size: 40px;
+  display: block;
+  text-align: center;
+}
+
+.title-instruction a {
+  text-decoration: none;
+  font-family: 'Playball';
+  color: #231f20;
+}
+
+/* CSS page home */
+.content {
+  margin: auto;
+}
+.section-banner-1 {
+  margin-top: 50px;
+}
+.thumb-image-banner {
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+.section-banner-2 {
+  margin-top: 50px;
+}
+.thumb-banner img {
+  width: 497px;
+  height: 354px;
+}
+.banner-left {
+  margin-left: -28px;
+}
+.thumb-content {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  transition: transform .25s ease, -webkit-transform .25s ease;
+  width: 100%;
+  text-align: center;
+}
+.thumb-content .title {
+  font-size: 40px;
+  color: #000000;
+  letter-spacing: .1em;
+  font-family: 'Playball';
+}
+.thumb-content p {
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* CSS Contact */
+
+
+--------------------------------------------------------------*/
+.contact-forms {
+  width: 100%;
+}
+
+.contact-forms i {
+  font-size: 20px;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #cda45e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-forms h4 {
+  padding: 0 0 0 60px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-forms p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #bab3a6;
+}
+
+.contact-forms .open-hours,
+.contact-forms .email,
+.contact-forms .phone {
+  margin-top: 40px;
+}
+
+.updateAccountFormWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+ 
+}
+
+.updateAccountForm {
+  width:100%; /* Điều chỉnh kích thước của form */
+
+}
+

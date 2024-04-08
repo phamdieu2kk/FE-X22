@@ -1,0 +1,36 @@
+
+.header {
+    background: rgba(255, 255, 255, 0.8);
+    background: #fff url("https://trangnguyentiengviet.vn/assets/images/bg-foot.jpg") no-repeat top left;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.brand-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.nav-menu {
+    background: none;
+    width: 100%;
+    color: rgb(246, 236, 236);
+
+}
+
+.nav-menu.nav-menu-right {
+    width: 50%;
+   
+}
+
+.nav-link.active {
+    text-decoration: none;
+    color: #f7f702 !important;
+}
+
+.nav-link:hover {
+    text-decoration: none !important;
+    color: #040404 !important;
+}

@@ -1,0 +1,24 @@
+/* style.css */
+.option-single-choice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Đảm bảo nội dung bên trong được căn giữa */
+.option-single-choice .ant-radio-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.option-single-choice .ant-radio-button-wrapper {
+  width: 100%; 
+  height: 50px; 
+  line-height: 48px; 
+  font-size: 16px; 
+}
